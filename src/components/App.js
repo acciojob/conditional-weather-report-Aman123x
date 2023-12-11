@@ -14,8 +14,9 @@ const App = () => {
         {/* Do not remove the main div */}
         <p>
         <span style={{ color: tempColor }}>
-          Temperature: {weather.temperature} Conditions: {weather.conditions}
+          Temperature: {weather.temperature}<br/>
         </span>
+        Conditions: {weather.conditions}
       </p>
         
         
