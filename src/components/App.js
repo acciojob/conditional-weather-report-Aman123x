@@ -12,10 +12,11 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>
+        
         <span style={{ color: tempColor }}>
-          Temperature: {weather.temperature}<br/>
+          Temperature: {weather.temperature}
         </span>
+        <p>
         Conditions: {weather.conditions}
       </p>
         
